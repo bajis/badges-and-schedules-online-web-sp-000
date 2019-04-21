@@ -13,9 +13,10 @@ end
 
 def assign_rooms(guest)
   array = []
+  index = index + 1
   guest.each_with_index do |name, index|
     array.push("Hello, my name is #{name}! You'll be assigned to room #{index}!")
-    index = index + 1
+    
   end
   return array
 end
