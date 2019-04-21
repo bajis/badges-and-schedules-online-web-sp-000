@@ -18,3 +18,14 @@ def assign_rooms(guest)
   end
   return array
 end
+
+def printer
+  array = batch_badge_creator(guest)
+  array.each do |print|
+    puts print
+  end
+  array = assign_rooms(guest)
+  array.each do |print|
+    puts print
+end
+end
